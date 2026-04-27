@@ -1,0 +1,17 @@
+# Linked to Supabase project (see .temp after `supabase link`)
+project_id = "oifoxzkibplwfedbodxt"
+
+# Invoke uses the user JWT in Authorization; we validate the user inside the function.
+# Gateway JWT verification alone often returns 401 when tokens are valid (client/header edge cases).
+[functions.sync-property-finder]
+verify_jwt = false
+
+# Same: gateway JWT verification returns 401 when edge fn uses service role only.
+[functions.generate-catalog]
+verify_jwt = false
+
+[functions.whatsapp-webhook]
+verify_jwt = false
+
+[functions.whatsapp-send]
+verify_jwt = false

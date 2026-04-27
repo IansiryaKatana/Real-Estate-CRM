@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS property_agents_property_agent_unique ON public.property_agents (property_id, agent_id);
