@@ -1,6 +1,8 @@
-# PropFlow
+# Real Estate CRM
 
-Real estate CRM: portfolios, properties, leads, pipeline, commissions, and Property Finder ingestion (Edge Functions).
+Developer: Ian Katana
+
+Real Estate CRM: portfolios, properties, leads, pipeline, commissions, and Property Finder ingestion (Edge Functions).
 
 ## Setup
 

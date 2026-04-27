@@ -1,5 +1,7 @@
 # Email Communication Setup Guide (Resend + CRM)
 
+Developer: Ian Katana
+
 This guide explains how to enable lead email sending and receiving inside the CRM using Resend.
 
 ## 1) What this integration does

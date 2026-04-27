@@ -1,6 +1,7 @@
 -- Public-facing / CRM identity fields stored with branding (single row pattern).
+-- Maintained by Ian Katana.
 ALTER TABLE public.branding_settings
-  ADD COLUMN IF NOT EXISTS system_name TEXT DEFAULT 'PropFlow CRM',
+  ADD COLUMN IF NOT EXISTS system_name TEXT DEFAULT 'Real Estate CRM',
   ADD COLUMN IF NOT EXISTS contact_phone TEXT,
   ADD COLUMN IF NOT EXISTS contact_email TEXT,
   ADD COLUMN IF NOT EXISTS website_url TEXT;

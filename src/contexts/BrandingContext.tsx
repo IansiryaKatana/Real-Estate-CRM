@@ -11,7 +11,7 @@ import {
 
 const DEFAULT_PRIMARY = "#1a5c3a";
 const DEFAULT_ACCENT = "#e5a100";
-export const DEFAULT_SYSTEM_NAME = "PropFlow CRM";
+export const DEFAULT_SYSTEM_NAME = "Real Estate CRM";
 
 const FONT_LINK_ID = "branding-google-fonts";
 

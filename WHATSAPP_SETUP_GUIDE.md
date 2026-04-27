@@ -1,5 +1,7 @@
 # WhatsApp Cloud API Setup Guide (CRM)
 
+Developer: Ian Katana
+
 This guide explains how to enable WhatsApp in the CRM using Meta WhatsApp Cloud API.
 
 ## 1) What this integration does

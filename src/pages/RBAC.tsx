@@ -166,7 +166,7 @@ export default function RBACPage({ embedded = false }: RBACPageProps) {
         <DialogHeader><DialogTitle>Add System User</DialogTitle></DialogHeader>
         <div className="space-y-3 pt-2">
           <div><Label>Full Name</Label><Input placeholder="User name" value={form.full_name} onChange={e => setForm(f => ({ ...f, full_name: e.target.value }))} /></div>
-          <div><Label>Email</Label><Input type="email" placeholder="email@propflow.com" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} /></div>
+          <div><Label>Email</Label><Input type="email" placeholder="email@realestatecrm.com" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} /></div>
           <div><Label>Title / Position</Label><Input placeholder="e.g. Senior Agent" value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} /></div>
           <div><Label>Department</Label><Select value={form.department} onValueChange={v => setForm(f => ({ ...f, department: v }))}><SelectTrigger><SelectValue placeholder="Select department" /></SelectTrigger><SelectContent><SelectItem value="Executive">Executive</SelectItem><SelectItem value="Operations">Operations</SelectItem><SelectItem value="Sales">Sales</SelectItem><SelectItem value="Finance">Finance</SelectItem></SelectContent></Select></div>
           <div className="grid grid-cols-2 gap-3">
